@@ -11,9 +11,9 @@ public class SimulateurDeCanards {
 	public void simuler(FabriqueDeComptage fabriqueDeCanards) {
 		Cancaneur colvert = fabriqueDeCanards.creerColvert();
 		Cancaneur mandarin = fabriqueDeCanards.creerMandarin();
-		simuler(colvert);
-		simuler(mandarin);
-		System.out.println("Nous avons compté " + CompteurDeCouacs.getCouacs() + " couacs.");
+		
+		Troupe troupe = new Troupe();
+		troupe.cancaner();
 		}	
 	
 	public void simuler(Cancaneur canard) {
