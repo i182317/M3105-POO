@@ -1,6 +1,6 @@
 package exo1;
 
-public interface Cancaneur {
+public interface Cancaneur extends CouacObservable{
 	public void cancaner();
 }
 
