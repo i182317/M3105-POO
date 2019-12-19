@@ -1,30 +1,30 @@
 package exo1;
 
 public class FabriqueDeCanards extends FabriqueDeCanardsAbstraite {
-
+	
 	@Override
 	public Cancaneur creerColvert() {
-		return new CompteurDeCouacs(new Colvert());
+		return new Colvert();
 	}
 
 	@Override
 	public Cancaneur creerMandarin() {
-		return new CompteurDeCouacs(new Mandarin());
+		return new Mandarin();
 	}
 
 	@Override
 	public Cancaneur creerCanardEnPlastique() {
-		return new CompteurDeCouacs(new CanardEnPlastique());
+		return new CanardEnPlastique();
 	}
 
 	@Override
 	public Cancaneur creerAppelant() {
-		return new CompteurDeCouacs(new Appelant());
+		return new Appelant();
 	}
 
 	@Override
 	public Cancaneur creerCanardDOie() {
-		return new CompteurDeCouacs(new AdaptateurDOie(new Oie()));
+		return new AdaptateurDOie(new Oie());
 	}
 
 }
