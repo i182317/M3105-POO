@@ -6,9 +6,11 @@ import java.util.List;
 public class Troupe implements Cancaneur{
 	
 	private List<Cancaneur> lesCancaneurs;
+	private Observable observable;
 	
 	public Troupe() {
 		this.lesCancaneurs = new ArrayList<>();
+		this.observable = new Observable(this);
 	}
 	
 	public void add(Cancaneur cancaneur) {
@@ -20,6 +22,17 @@ public class Troupe implements Cancaneur{
 		for(Cancaneur cancaneur : lesCancaneurs) {
 			cancaneur.cancaner();
 		}
+		
+	}
+
+	@Override
+	public void enregistrerObservateur(Observateur observateur) {
+		this.observable.enregistrerObservateur(observateur);	
+	}
+
+	@Override
+	public void notifierObservateurs() {
+		this.observable.notifierObservateurs();
 		
 	}
 }
