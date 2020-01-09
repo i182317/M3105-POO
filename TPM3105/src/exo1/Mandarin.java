@@ -25,4 +25,10 @@ public class Mandarin implements Cancaneur{
 		this.observable.notifierObservateurs();
 		
 	}
+
+	@Override
+	public void accept(Visitor v) {
+		v.visit(this);
+		
+	}
 }

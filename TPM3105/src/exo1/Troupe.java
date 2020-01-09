@@ -35,4 +35,11 @@ public class Troupe implements Cancaneur{
 		this.observable.notifierObservateurs();
 		
 	}
+
+	@Override
+	public void accept(Visitor v) {
+		for(Cancaneur unCancaneur : lesCancaneurs) {
+			v.visit(unCancaneur);	
+		}
+	}
 }

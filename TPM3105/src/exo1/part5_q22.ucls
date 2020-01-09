@@ -4,7 +4,7 @@
   <class id="1" language="java" name="exo1.SimulateurDeCanards" project="TPM3105" 
     file="/TPM3105/src/exo1/SimulateurDeCanards.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="460" y="100"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    

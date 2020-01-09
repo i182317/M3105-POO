@@ -29,4 +29,10 @@ public class Colvert implements Cancaneur{
 	public String toString() {
 		return "colvert";
 	}
+
+	@Override
+	public void accept(Visitor v) {
+		v.visit(this);
+		
+	}
 }
