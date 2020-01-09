@@ -11,7 +11,7 @@ public class Colvert implements Cancaneur{
 	
 	public void cancaner() {
 		System.out.println("Coincoin");
-		this.observable.notifierObservateurs();
+		this.notifierObservateurs();
 	}
 
 	@Override
@@ -24,5 +24,9 @@ public class Colvert implements Cancaneur{
 	public void notifierObservateurs() {
 		this.observable.notifierObservateurs();
 		
+	}
+	
+	public String toString() {
+		return "colvert";
 	}
 }
