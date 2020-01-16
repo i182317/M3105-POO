@@ -2,7 +2,7 @@ package v1;
 
 public class Rental {
 	
-	private Movie movie; 
+	Movie movie; 
 	private int daysRented;
 	
 	public Rental(Movie movie, int daysRented) { 
@@ -17,4 +17,14 @@ public class Rental {
 	public Movie getMovie() { 
 		return movie;
 	} 
+	
+	public double getCharge() {
+		return this.movie.getCharge(daysRented);
+	}
+	
+	public int getFrequentRenterPoints() {
+		return this.movie.getFrequentRenterPoints(this);
+	}
+
 }
+

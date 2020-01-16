@@ -16,11 +16,16 @@ public class HasQuarterState implements State {
 	public void ejectQuarter() {
 		System.out.println("Quarter returned");
 		//TODO: complete
+		this.gumballMachine.setState(this.gumballMachine.noQuarterState);
 	}
  
 	public void turnCrank() {
 		System.out.println("You turned...");
 		//TODO: complete
+		if(this.gumballMachine.count > 0) 
+			this.gumballMachine.setState(this.gumballMachine.soldState);
+		else
+			this.gumballMachine.setState(this.gumballMachine.soldOutState);
 	}
 
     public void dispense() {

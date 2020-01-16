@@ -7,22 +7,32 @@ public class Movie {
 	public static final int NEW_RELEASE = 1;
 	
 	private String title; 
-	private int priceCode;
+	private IPrice price;
 	
-	public Movie(String title, int priceCode) { 
+	public Movie(String title, IPrice price) { 
 		this.title = title;
-		this.priceCode = priceCode;
+		this.price = price;
 	}
 	
-	public int getPriceCode() { 
-		return priceCode;
+	public IPrice getPrice() { 
+		return price;
 	}
 	
-	public void setPriceCode(int priceCode) {
-		this.priceCode = priceCode;
+	public void setPriceCode(IPrice price) {
+		this.price = price;
 	}
 
 	public String getTitle (){ 
 		return title;
+	}
+
+	public double getCharge(int daysRented) {
+		double thisAmount = 0;
+		return this.price.getCharge(daysRented, thisAmount);
+	}
+
+	public int getFrequentRenterPoints(Rental rental) {
+		
+		return getPrice() == new PriceNewRelease() && rental.getDaysRented() > 1 ? 2 : 1;
 	}
 }

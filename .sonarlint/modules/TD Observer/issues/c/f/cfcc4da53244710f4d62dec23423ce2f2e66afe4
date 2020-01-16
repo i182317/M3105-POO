@@ -1,0 +1,21 @@
+
+e
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ìÀ¹ÈHÙRMAJORZ
+CODE_SMELL
+j
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ýÊÔÌÿÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+j
+squid:S106%"9Replace this use of System.out or System.err by a logger.(èÍÔ„üÿÿÿÿHÛRMAJORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÅ¥™HÜRMINORZ
+CODE_SMELL
+bsquid:S1068	"0Remove this unused "lastHumidity" private field.(ÿ¬ôóøÿÿÿÿHÝRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(šò¶çHÞRMAJORZ
+CODE_SMELL
+Ysquid:S1068",Remove this unused "lastTemp" private field.(Ñ«öËHßRMAJORZ
+CODE_SMELL
+isquid:S2589$"7Remove this expression which always evaluates to "true"(°Æ„îúÿÿÿÿHàRMAJORZ
+CODE_SMELL

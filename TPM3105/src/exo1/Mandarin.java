@@ -29,6 +29,5 @@ public class Mandarin implements Cancaneur{
 	@Override
 	public void accept(Visitor v) {
 		v.visit(this);
-		
 	}
 }

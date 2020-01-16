@@ -1,0 +1,15 @@
+
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÿÔ½•HRMAJORZ
+CODE_SMELL
+j
+squid:S106+"9Replace this use of System.out or System.err by a logger.(È±„ıÿÿÿÿHRMAJORZ
+CODE_SMELL
+}squid:UselessImportCheck">Remove this unused import 'javafx.beans.InvalidationListener'.(í¿ïÈşÿÿÿÿHRMINORZ
+CODE_SMELL
+psquid:UselessImportCheck"/Remove this unused import 'java.util.Observer'.(«Öí·8…õ ¦ä-H‘RMINORZ
+CODE_SMELL
+e
+squid:S106%"9Replace this use of System.out or System.err by a logger.(íï·H’RMAJORZ
+CODE_SMELL
+ssquid:UselessImportCheck"4Remove this unused import 'javafx.beans.Observable'.(æ ûÿÿÿÿH“RMINORZ
+CODE_SMELL

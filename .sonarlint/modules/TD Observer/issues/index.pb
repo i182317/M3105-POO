@@ -1,0 +1,33 @@
+
+P
+ src/angeldevil/package-info.java,c\1\c1fc3176a46061729fac3a21d7d3f38255a2f359
+X
+(src/angeldevil/SwingObserverExample.java,2\9\297b6c14b79c68b8ada3a03be28d5687e76e48fd
+X
+(src/version1/weather/WeatherStation.java,9\6\968f5ec7aa8aaf34f314ab61481a7fc1d1d8ae16
+U
+%src/version1/weather/Observateur.java,2\b\2b9f61e38b9b4a255d440074fd23f4e8d82408f4
+S
+#src/version1/weather/Affichage.java,3\1\31e03aa2905e2e32f833de65dd6718768071bf39
+b
+2src/version1/weather/CurrentConditionsDisplay.java,9\3\93d55a2faabbd6024f5c44e3181c1ddcd4b5dfcc
+Y
+)src/version1/weather/ForecastDisplay.java,c\f\cfcc4da53244710f4d62dec23423ce2f2e66afe4
+[
++src/version1/weather/StatisticsDisplay.java,c\a\ca18699ccdcb98a27c1c5abe3bdfd75a10791d70
+U
+%src/version1/weather/WeatherData.java,1\8\186d7efd3e37dd03c8f0865890e5b2148e88feb2
+O
+src/version1/weather/Sujet.java,3\9\39abf202e932e0cff18fd8a7f25eb499a6e8790f
+V
+&src/version2/weather/package-info.java,7\f\7f611949bf558255accce7ec4aff0a54c282ff97
+X
+(src/version2/weather/WeatherStation.java,4\3\43efaf3219eb709d08cd0539852a7215edc0b9ee
+[
++src/version2/weather/StatisticsDisplay.java,7\7\77c8386f56f1736f60c9964c8bd015a5ae93aee9
+Y
+)src/version2/weather/ForecastDisplay.java,6\4\644b77c32035421390649cf08f93e3bcd83260e9
+b
+2src/version2/weather/CurrentConditionsDisplay.java,3\e\3e09245869f633afb9e7772ea45eafb39c47b854
+U
+%src/version2/weather/WeatherData.java,b\b\bbe6bfe2457ad1dcb5e9da1c7584413d5b411a53

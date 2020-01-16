@@ -25,6 +25,8 @@ public class SoldOutState implements State {
 	
 	public void refill() { 
 		//TODO: complete
+		this.gumballMachine.setState(this.gumballMachine.noQuarterState);
+		//
 	}
  
 	public String toString() {

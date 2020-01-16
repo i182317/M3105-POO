@@ -1,0 +1,25 @@
+
+esquid:S1153'"1Directly append the argument of String.valueOf().(¡¶Ôş8š›Ç‡ë-H¨RMINORZ
+CODE_SMELL
+lsquid:UselessImportCheck"-Remove this unused import 'java.util.Vector'.(ÿŒ¸ÁÿÿÿÿÿH©RMINORZ
+CODE_SMELL
+jsquid:S1153F"1Directly append the argument of String.valueOf().(®Âõëøÿÿÿÿ8¢Õ”ˆë-HªRMINORZ
+CODE_SMELL
+Usquid:S1643$"Use a StringBuilder instead.(æı‡Åÿÿÿÿÿ8‹£®é-H«RMINORZ
+CODE_SMELL
+Usquid:S1643A"Use a StringBuilder instead.(ç†Ğéøÿÿÿÿ8¢Õ”ˆë-H¬RMINORZ
+CODE_SMELL
+jsquid:S1153("1Directly append the argument of String.valueOf().(ô™ó­øÿÿÿÿ8œ…Â‡ë-H­RMINORZ
+CODE_SMELL
+esquid:S1153B"1Directly append the argument of String.valueOf().( ¬¡Û8ç¶ˆë-H®RMINORZ
+CODE_SMELL
+jsquid:S1153D"1Directly append the argument of String.valueOf().(‡ƒ¨ÿÿÿÿÿ8¢Õ”ˆë-H¯RMINORZ
+CODE_SMELL
+†squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ³–ùH°RMINORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÊû…ÿÿÿÿÿH±RMINORZ
+CODE_SMELL
+lsquid:UselessImportCheck"2Remove this unused import 'java.util.Enumeration'.(»îÜ®H²RMINORZ
+CODE_SMELL
+jsquid:S1153$"1Directly append the argument of String.valueOf().(æı‡Åÿÿÿÿÿ8€Ğ¶ˆë-H³RMINORZ
+CODE_SMELL

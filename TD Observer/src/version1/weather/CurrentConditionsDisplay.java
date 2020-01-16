@@ -1,18 +1,22 @@
 package version1.weather;
 
-public class CurrentConditionsDisplay .........{
+import java.util.Observer;
+
+public class CurrentConditionsDisplay implements Observateur, Affichage{
 	private float temperature;
 	private float humidity;
-	//TODO:
+	private float pressure;
 	
-	public CurrentConditionsDisplay(................) {
-		//TODO:
+	public CurrentConditionsDisplay(WeatherData w) {
+		this.temperature = w.getTemperature();
+		this.humidity = w.getHumidity();
+		this.pressure = w.getPressure();
 	}
 	
-	public void ...........(float temperature, float humidity, float pressure) {
+	public void actualiser(float temperature, float humidity, float pressure) {
 		this.temperature = temperature;
 		this.humidity = humidity;
-		//TODO:
+		this.pressure = pressure;
 	}
 	
 	public void display() {

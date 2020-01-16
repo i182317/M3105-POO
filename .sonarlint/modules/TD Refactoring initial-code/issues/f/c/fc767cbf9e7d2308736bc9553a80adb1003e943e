@@ -1,0 +1,7 @@
+
+rsquid:S1854">Remove this useless assignment to local variable "thisAmount".(½úšŞ8›‘Æ§í-H•RMAJORZ
+CODE_SMELL
+»squid:S2681	"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(”·³›8›‘Æ§í-H”RMAJORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÊû…ÿÿÿÿÿHíRMINORZ
+CODE_SMELL

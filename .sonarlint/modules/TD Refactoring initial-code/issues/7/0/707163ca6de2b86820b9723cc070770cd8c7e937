@@ -1,0 +1,7 @@
+
+nsquid:S1854":Remove this useless assignment to local variable "result".(¹Œ¼8¡Ã©í-HÎRMAJORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÊû…ÿÿÿÿÿHÏRMINORZ
+CODE_SMELL
+_squid:S1481"+Remove this unused "result" local variable.(¹Œ¼8¡Ã©í-HĞRMINORZ
+CODE_SMELL

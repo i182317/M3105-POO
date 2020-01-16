@@ -21,7 +21,9 @@ public class SoldState implements State {
 	}
  
 	public void dispense() {
-		//TODO: complete
+		this.gumballMachine.releaseBall();
+			System.out.println("You get a gumball ! ");
+			this.gumballMachine.setState(this.gumballMachine.noQuarterState);
 	}
 	
 	public void refill() { }

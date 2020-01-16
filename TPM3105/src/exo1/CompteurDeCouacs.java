@@ -22,7 +22,7 @@ public class CompteurDeCouacs implements Cancaneur{
 	@Override
 	public void enregistrerObservateur(Observateur observateur) {
 		this.observable.enregistrerObservateur(observateur);
-		
+
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class CompteurDeCouacs implements Cancaneur{
 	@Override
 	public void accept(Visitor v) {
 		v.visit(this);
-		
+		cancaneur.accept(v);
 	}
 
 }

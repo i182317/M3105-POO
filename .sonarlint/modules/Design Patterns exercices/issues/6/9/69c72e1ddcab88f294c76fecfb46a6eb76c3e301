@@ -1,0 +1,21 @@
+
+csquid:S1135"2Complete the task associated to this TODO comment.(¨˜êæüÿÿÿÿHðRINFOZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(’„î¡þÿÿÿÿHñRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡±ÂŠHïRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù’‰þHôRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(¨˜êæüÿÿÿÿHòRINFOZ
+CODE_SMELL
+¶squid:S1186#"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‡ÏÝóþÿÿÿÿHîRCRITICALZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(—Ï…§HíRMAJORZ
+CODE_SMELL
+j
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¯ÔæéÿÿÿÿÿHóRMAJORZ
+CODE_SMELL

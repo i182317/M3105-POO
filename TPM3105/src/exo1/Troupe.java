@@ -38,8 +38,9 @@ public class Troupe implements Cancaneur{
 
 	@Override
 	public void accept(Visitor v) {
+		v.visit(this);
 		for(Cancaneur unCancaneur : lesCancaneurs) {
-			v.visit(unCancaneur);	
+			unCancaneur.accept(v);
 		}
 	}
 }

@@ -2,19 +2,29 @@ package version1.weather;
 
 import java.util.*;
 
-public class ForecastDisplay .... {
+public class ForecastDisplay implements Observateur, Affichage {
 	private float currentPressure = 29.92f;  
 	private float lastPressure;
-	//TODO:
+	private float currentHumidity;
+	private float lastHumidity;
+	private float currentTemp;
+	private float lastTemp;
 
-	public ForecastDisplay(..............) {
-		//TODO:
+	public ForecastDisplay(WeatherData w) {
+		this.lastPressure = w.getPressure();
+		this.lastHumidity = w.getHumidity();
+		this.lastTemp = w.getTemperature();
 	}
 
-	public void ............(float temp, float humidity, float pressure) {
+	public void actualiser(float temp, float humidity, float pressure) {
         lastPressure = currentPressure;
 		currentPressure = pressure;
-		//TODO:
+		
+		lastHumidity = currentHumidity;
+		currentHumidity = humidity;
+		
+		lastTemp = currentTemp;
+		currentTemp = temp;
 	}
 
 	public void display() {
